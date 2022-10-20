@@ -13,7 +13,7 @@ git clone https://github.com/shapled/spacemacs-config.git ~/.spacemacs.d
     ```
 
 3. open emacs to install packages
-4. remove 
+4. remove default config of spacemacs
 
     ```bash
     rm -f ~/.spacemacs
