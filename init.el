@@ -32,7 +32,9 @@ This function should only modify configuration layer settings."
 
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   '(markdown
+   '(python
+     javascript
+     markdown
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press `SPC f e R' (Vim style) or
@@ -47,11 +49,11 @@ This function should only modify configuration layer settings."
      ;; markdown
      multiple-cursors
      (org :variables
-	  ;; 设置 TODO 关键词自动切换，用 t 切换，用 T 新增
-	  org-want-todo-bindings t
-	  ;; 设置导出 html 时的注脚格式
-	  org-html-postamble "<p>%a / <span class=\"date\">%d</span></p>"
-	  )
+       ;; 设置 TODO 关键词自动切换，用 t 切换，用 T 新增
+	     org-want-todo-bindings t
+	     ;; 设置导出 html 时的注脚格式
+	     org-html-postamble "<p>%a / <span class=\"date\">%d</span></p>"
+	     )
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
@@ -69,10 +71,10 @@ This function should only modify configuration layer settings."
    ;; `dotspacemacs/user-config'. To use a local version of a package, use the
    ;; `:location' property: '(your-package :location "~/path/to/your-package/")
    ;; Also include the dependencies as they will not be resolved automatically.
-   dotspacemacs-additional-packages '()
+   dotspacemacs-additional-packages '(cmake-mode)
 
    ;; A list of packages that cannot be updated.
-   dotspacemacs-frozen-packages '()
+   dotspacemacs-frozen-packages '(cmake-mode)
 
    ;; A list of packages that will not be installed and loaded.
    dotspacemacs-excluded-packages '()
