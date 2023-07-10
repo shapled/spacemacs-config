@@ -22,8 +22,17 @@ git clone https://github.com/shapled/spacemacs-config.git ~/.spacemacs
 5. download custom config
 
     ```bash
-    git clone https://github.com/shapled/spacemacs-config.git ~/.spacemacs
+    git clone https://github.com/shapled/spacemacs-config.git ~/.spacemacs.d
+    ```
+
+6. set environment and eval it
+
+    ```bash
+    # ~/.bashrc
+    export SPACEMACSDIR=$HOME/.spacemacs.d
+
+    # eval
+    source ~/.bashrc
     ```
 
 6. reopen emacs && enjoy it.
-
