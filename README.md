@@ -9,7 +9,7 @@ git clone https://github.com/shapled/spacemacs-config.git ~/.spacemacs
 2. download spacemacs
 
     ```bash
-    git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+    git clone --branch v0.200.14 https://github.com/syl20bnr/spacemacs ~/.emacs.d
     ```
 
 3. open emacs to install packages
@@ -23,16 +23,6 @@ git clone https://github.com/shapled/spacemacs-config.git ~/.spacemacs
 
     ```bash
     git clone https://github.com/shapled/spacemacs-config.git ~/.spacemacs.d
-    ```
-
-6. set environment and eval it
-
-    ```bash
-    # ~/.bashrc
-    export SPACEMACSDIR=$HOME/.spacemacs.d
-
-    # eval
-    source ~/.bashrc
     ```
 
 6. reopen emacs && enjoy it.
