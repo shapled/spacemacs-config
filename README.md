@@ -1,6 +1,6 @@
 usage:
 ```bash
-git clone https://github.com/shapled/spacemacs-config.git ~/.spacemacs.d
+git clone https://github.com/shapled/spacemacs-config.git ~/.spacemacs
 ```
 
 ## Setup Spacemacs
@@ -22,7 +22,7 @@ git clone https://github.com/shapled/spacemacs-config.git ~/.spacemacs.d
 5. download custom config
 
     ```bash
-    git clone https://github.com/shapled/spacemacs-config.git ~/.spacemacs.d
+    git clone https://github.com/shapled/spacemacs-config.git ~/.spacemacs
     ```
 
 6. reopen emacs && enjoy it.
